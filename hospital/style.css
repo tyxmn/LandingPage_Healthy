@@ -1,10 +1,14 @@
 @font-face {
-    font-family: 'nakorn';
-    src: url('font/PK Nakhon Pathom Demo.woff') format('woff');
-}
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8fMZJIPecmNE.woff2) format('woff2');
+    unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+  }
 
 .nakorn {
-    font-family: 'nakorn';
+    font-family: 'Mitr', sans-serif;
 }
 
 .carousel {
@@ -16,7 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Mitr', sans-serif;
 }
 
 body {
@@ -257,103 +261,4 @@ body {
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Footer Styles */
-.footer {
-    background-color: #f8f9fa;
-    padding: 60px 0 30px;
-    border-top: 1px solid #e9ecef;
-    margin-top: 50px;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.footer-col {
-    width: 250px;
-    margin-bottom: 30px;
-}
-
-.footer-title {
-    color: #2196F3;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.footer-links {
-    list-style: none;
-}
-
-.footer-links li {
-    margin-bottom: 12px;
-}
-
-.footer-links a {
-    color: #666;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #2196F3;
-}
-
-.footer-social {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.social-icon {
-    width: 32px;
-    height: 32px;
-    background-color: #2196F3;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.social-icon:hover {
-    background-color: #1976D2;
-}
-
-.footer-bottom {
-    border-top: 1px solid #e9ecef;
-    margin-top: 30px;
-    padding-top: 30px;
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .footer-col {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-col {
-        width: 100%;
-    }
 }
