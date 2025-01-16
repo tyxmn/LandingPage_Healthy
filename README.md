@@ -2,7 +2,5 @@
 
 **LandingPage โง่ๆ ที่เอามาแก้ UI อีกที Code ก็จะแปลกๆหน่อย**
 **งานเขาเราทำหัวจะปวด**
-<br>
-**คอมเม้นต์ code ให้เด็กมันอ่านเฉยๆ**
 
 <p align="center"><img align="center" src="https://i.imgur.com/YO1ALAq.png" alt="tyxm" /></p>
