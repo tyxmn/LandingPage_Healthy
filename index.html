@@ -1,0 +1,156 @@
+<!-- ประกาศ HTML5 และกำหนดภาษาไทยเป็นภาษาหลัก -->
+<!DOCTYPE html>
+<html lang="th">
+
+<!-- ส่วนหัวเว็บไซต์สำหรับการตั้งค่าพื้นฐานและการเชื่อมต่อไฟล์ -->
+
+<head>
+    <!-- กำหนดการเข้ารหัสเป็น UTF-8 สำหรับรองรับภาษาไทย -->
+    <meta charset="UTF-8">
+    <!-- รองรับการแสดงผลบนอุปกรณ์ทุกขนาดหน้าจอ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- เชื่อมต่อกับไฟล์ CSS -->
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <title>สุขภาพครบวงจร</title>
+</head>
+
+<body>
+    <!-- แถบนำทางด้านบนเว็บไซต์ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">สุขภาพครบวงจร</a>
+            <!-- เมนูลิงก์ไปยังหน้าต่างๆ -->
+            <div class="nav-links">
+                <a href="index.html">หน้าแรก</a>
+                <a href="healthyFood.html">อาหารเพื่อสุขภาพ</a>
+                <a href="healthyDrink.html">เครื่องดื่มเพื่อสุขภาพ</a>
+                <a href="healthMental.html">การดูแลสุขภาพจิต</a>
+                <a href="fitnessPlace.html">สถานที่ออกกำลังกาย</a>
+                <a href="hospital.html">โรงพยาบาล</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ส่วนแสดงเนื้อหาหลักด้านบนของเว็บไซต์ -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>สุขภาพและความปลอดภัยของทุกคนเป็นเรื่องที่รอไม่ได้</h1>
+            <p>ความเจ็บป่วยที่เกิดขึ้นกับคนเรามีสาเหตุสำคัญอย่างหนึ่งมาจากการที่ร่างกายและจิตใจเสียสมดุล
+                โดยมีปัจจัยจากสภาพแวดล้อม มลพิษ สารเคมี ฝุ่นละอองและเชื้อโรค
+                รวมถึงการดำเนินชีวิตประจำวันที่มีความเร่งรีบ แข่งขัน ทำให้เกิดผลต่อจิตใจ เช่น ความเครียด ความวิตกกังวล
+                นอนไม่หลับ หรือซึมเศร้า แม้ว่าธรรมชาติร่างกายของเราจะมีกลไกในการปกป้องและรักษาตนเองจากการเจ็บป่วยได้
+                แต่การรักษาสมดุลของทั้งร่างกายและจิตใจน่าจะเป็นวิธีที่ดีที่สุดที่ช่วยป้องกันการเจ็บป่วย
+                ทั้งช่วยเสริมสร้างศักยภาพให้เซลล์และอวัยวะภายในร่างกายมีความสมบูรณ์ แข็งแรง
+                และทำงานได้อย่างมีประสิทธิภาพมากที่สุด</p>
+        </div>
+        <!-- รูปภาพประกอบส่วน hero -->
+        <div>
+            <img src="assets/images/healthy3.webp" alt="healthy lifestyle" class="hero-image">
+        </div>
+    </section>
+
+    <!-- ส่วนแสดงการ์ดเนื้อหาบริการต่างๆ -->
+    <section class="cards">
+        <!-- การ์ดอาหารเพื่อสุขภาพ -->
+        <a href="healthyFood.html" class="card">
+            <img src="assets/images/หน้าหลัก2.webp" alt="อาหารเพื่อสุขภาพ">
+            <div class="card-content">
+                <h2>อาหารเพื่อสุขภาพ</h2>
+                <p>เรียนรู้การเลือกรับประทานอาหารที่มีประโยชน์ต่อร่างกาย</p>
+                <!-- รายการบริการย่อยในการ์ด -->
+                <div class="card-description">
+                    - เมนูอาหารเพื่อสุขภาพ<br>
+                    - คุณค่าทางโภชนาการ<br>
+                    - เทคนิคการเลือกวัตถุดิบ<br>
+                    - สูตรอาหารคลีน
+                </div>
+            </div>
+        </a>
+
+        <!-- การ์ดการออกกำลังกาย -->
+        <a href="fitnessPlace.html" class="card">
+            <img src="assets/images/หน้าหลัก3.webp" alt="การออกกำลังกาย">
+            <div class="card-content">
+                <h2>การออกกำลังกาย</h2>
+                <p>ค้นพบวิธีการออกกำลังกายที่เหมาะกับคุณ</p>
+                <div class="card-description">
+                    - โปรแกรมออกกำลังกาย<br>
+                    - แนะนำสถานที่ออกกำลังกาย<br>
+                    - เทคนิคการออกกำลังกาย<br>
+                    - อุปกรณ์ที่จำเป็น
+                </div>
+            </div>
+        </a>
+
+        <!-- การ์ดสุขภาพจิต -->
+        <a href="healthMental.html" class="card">
+            <img src="assets/images/จิต.webp" alt="สุขภาพจิต">
+            <div class="card-content">
+                <h2>สุขภาพจิต</h2>
+                <p>ดูแลสุขภาพจิตใจให้แข็งแรงเช่นเดียวกับร่างกาย</p>
+                <div class="card-description">
+                    - เทคนิคการผ่อนคลาย<br>
+                    - การจัดการความเครียด<br>
+                    - การนอนหลับที่มีคุณภาพ<br>
+                    - กิจกรรมเพื่อสุขภาพจิต
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- ส่วนท้ายเว็บไซต์ -->
+    <footer class="footer">
+        <!-- ส่วนเนื้อหา footer แบ่งเป็น 4 คอลัมน์ -->
+        <div class="footer-container">
+            <!-- คอลัมน์ที่ 1: ข้อมูลเกี่ยวกับเว็บไซต์ -->
+            <div class="footer-col">
+                <h3 class="footer-title">เกี่ยวกับเรา</h3>
+                <p style="color: #666; font-size: 14px; line-height: 1.6;">
+                    ศูนย์รวมข้อมูลด้านสุขภาพครบวงจร ที่จะช่วยให้คุณมีสุขภาพที่ดีและมีความสุขในการใช้ชีวิต
+                </p>
+            </div>
+
+            <!-- คอลัมน์ที่ 2: เมนูบริการต่างๆ -->
+            <div class="footer-col">
+                <h3 class="footer-title">บริการของเรา</h3>
+                <ul class="footer-links">
+                    <li><a href="healthyFood.html">อาหารเพื่อสุขภาพ</a></li>
+                    <li><a href="healthyDrink.html">เครื่องดื่มเพื่อสุขภาพ</a></li>
+                    <li><a href="healthMental.html">การดูแลสุขภาพจิต</a></li>
+                    <li><a href="fitnessPlace.html">สถานที่ออกกำลังกาย</a></li>
+                    <li><a href="hospital.html">โรงพยาบาล</a></li>
+                </ul>
+            </div>
+
+            <!-- คอลัมน์ที่ 3: รายชื่อผู้จัดทำ -->
+            <div class="footer-col">
+                <h3 class="footer-title">จัดทำโดย</h3>
+                <ul class="footer-links">
+                    <li><a>นางสาว ชญาดา ธานี รหัสนักเรียน 65202040046</a></li>
+                    <li><a>นางสาว อริสา หว้านหอม รหัสนักเรียน 65202040074</a></li>
+                    <li><a>นางสาว พรนัชชา หอทับทิม รหัสนักเรียน 65202040154</a></li>
+                </ul>
+            </div>
+
+            <!-- คอลัมน์ที่ 4: ข้อมูลการติดต่อ -->
+            <div class="footer-col">
+                <h3 class="footer-title">ติดต่อเรา</h3>
+                <ul class="footer-links">
+                    <li><a href="tel:036 689 767">โทร: 036-689-767</a></li>
+                    <li><a href="mailto:info@lbtech.ac.th">อีเมล: info@lbtech.ac.th</a></li>
+                    <li><a href="#">323 ถนน นารายณ์มหาราช ตำบลทะเลชุบศร อำเภอเมืองลพบุรี ลพบุรี 15000</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ส่วนแสดงลิขสิทธิ์ -->
+        <div class="footer-bottom">
+            <ul class="footer-links">
+                <li><a href="https://www.facebook.com/tyxm.n/">© 2025 tyxmn. All rights reserved.</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
